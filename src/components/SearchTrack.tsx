@@ -1,4 +1,3 @@
-// import React from "react";
 import auth from "./auth.tsx";
 
 const SearchTrack = async (trackName: string) => {
@@ -15,10 +14,9 @@ const SearchTrack = async (trackName: string) => {
     searchParams
   );
   let trackinfo = await response.json();
-  let trackid = trackinfo.tracks.items[0].id;
 
-  console.log(`trackID: ${trackid}`);
-  return trackid;
+  // console.log(`trackID: ${trackid}`);
+  return trackinfo;
 };
 
 export default SearchTrack;

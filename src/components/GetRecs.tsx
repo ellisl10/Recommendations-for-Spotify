@@ -15,10 +15,6 @@ const GetRecs = async (seed_tracks: string | undefined) => {
   );
   console.log("searched");
   let recommendations = await response.json();
-  console.log(
-    // `recommendations: ${recommendations.name} by ${recommendations.artists[0].name}`
-    `recommendations: ${recommendations.tracks.name}`
-  );
   return recommendations.tracks;
 };
 

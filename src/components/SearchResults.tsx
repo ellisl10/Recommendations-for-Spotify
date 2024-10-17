@@ -35,7 +35,7 @@ const SearchResults = ({ trackid }: Props) => {
             width="50px"
           />
           {/*`${item.album.images.url}`*/}
-          {`${item.name} by ${item.artists[0].name}`}
+          {` ${item.name} by ${item.artists[0].name}`}
         </li>
       ))}
     </ul>

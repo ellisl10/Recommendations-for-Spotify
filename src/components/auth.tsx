@@ -1,5 +1,3 @@
-// import React from "react";
-
 async function auth() {
   const CLIENT_ID = import.meta.env.VITE_REACT_APP_CLIENT_ID;
   const CLIENT_SECRET = import.meta.env.VITE_REACT_APP_CLIENT_SECRET;

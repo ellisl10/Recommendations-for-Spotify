@@ -1,11 +1,9 @@
-.top{
-  background-color: #2b2b2a;
-}
+
 #title{
   color:#1DB954;
   font-family: sans-serif;
   font-size: 45px;
-  text-align: left;
+  text-align: center;
 }
 #logo {
   vertical-align: middle;
@@ -13,19 +11,19 @@
   max-width: 50px;
   padding-left: 10px;
 }
-.label {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
-  color: white;
+#trackNameInput {
+  margin: auto;
 }
 #submit {
   background-color:#1DB954;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-size: 15px;
   text-align: center;
-  align-items: center;
   color: white;
   border-radius: 6px;
+}
+#submit-div {
+  text-align: center;
 }
 #searchTrack {
   text-align: center;

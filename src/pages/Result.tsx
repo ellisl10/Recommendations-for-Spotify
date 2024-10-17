@@ -1,9 +1,9 @@
-// import GetRecs from "../components/GetRecs";
 import SearchResults from "../components/SearchResults";
 import { useParams } from "react-router-dom";
 
 const Result = () => {
   const { trackid } = useParams();
+
   console.log({ trackid });
   return (
     <div>
