@@ -1,0 +1,32 @@
+.top{
+  background-color: #2b2b2a;
+}
+#title{
+  color:#1DB954;
+  font-family: sans-serif;
+  font-size: 45px;
+  text-align: left;
+}
+#logo {
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 50px;
+  padding-left: 10px;
+}
+.label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+#submit {
+  background-color:#1DB954;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  border-radius: 6px;
+}
+#searchTrack {
+  text-align: center;
+}
