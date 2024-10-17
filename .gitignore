@@ -23,4 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+eslint.config.json
+package-lock.json
+package.json
+tsconfig.app.json
+tsconfig.json
+tsconfig.noe.json
+vite.config.ts
+README.md
 .env
