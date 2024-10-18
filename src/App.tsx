@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Result from "./pages/Result";
 
 function App() {
-  document.title = "Spotify Recs";
+  document.title = "Recommendations for Spotify";
 
   return (
     <BrowserRouter>

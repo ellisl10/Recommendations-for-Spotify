@@ -1,10 +1,10 @@
+import CurrentTrack from "../components/CurrentTrack";
 import SearchResults from "../components/SearchResults";
 import { useParams } from "react-router-dom";
 
 const Result = () => {
   const { trackid } = useParams();
 
-  console.log({ trackid });
   return (
     <div>
       <ul className="nav justify-content-center">
@@ -14,7 +14,8 @@ const Result = () => {
           </a>
         </li>
       </ul>
-      <h1>Results</h1>
+      <h1>Showing results for</h1>
+      <CurrentTrack trackid={trackid} />
       <SearchResults trackid={trackid} />
     </div>
   );
