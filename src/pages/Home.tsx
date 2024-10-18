@@ -16,7 +16,7 @@ const Home = () => {
     <div>
       <br />
       <h1 id="title">
-        Spotify Recs
+        Recommendations for Spotify
         <img src="src\assets\Spotify_Logo.png" id="logo"></img>
       </h1>
 
