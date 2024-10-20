@@ -26,19 +26,21 @@ const SearchResults = ({ trackid }: Props) => {
   }, [trackid]);
 
   return (
-    <ul className="list-group">
-      {recommendations.map((item, index) => (
-        <li key={index} className="list-group-item">
-          <img
-            src={`${item.album.images[0].url}`}
-            alt="Album image"
-            width="50px"
-          />
-          {/*`${item.album.images.url}`*/}
-          {` ${item.name} by ${item.artists[0].name}`}
-        </li>
-      ))}
-    </ul>
+    <div>
+      <ul className="list-group">
+        {recommendations.map((item, index) => (
+          <li key={index} className="list-group-item">
+            <img
+              src={`${item.album.images[0].url}`}
+              alt="Album image"
+              width="50px"
+            />
+            {/*`${item.album.images.url}`*/}
+            {` ${item.name} by ${item.artists[0].name}`}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 

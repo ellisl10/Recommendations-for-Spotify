@@ -5,14 +5,6 @@ interface Props {
   trackid: string | undefined;
 }
 
-interface Item {
-  name: string;
-  artists: Array<Item>;
-  album: Item;
-  images: Array<Item>;
-  url: string;
-}
-
 const CurrentTrack = ({ trackid }: Props) => {
   const [trackInfo, setTrackInfo] = useState<String>();
 
